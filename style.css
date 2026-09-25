@@ -1,8 +1,8 @@
 /* Basic page setup */
 body {
   font-family: Arial, sans-serif;
-  background-color: #0b1220;
-  color: #f5f7fa;
+  background-color: #0d1117;
+  color: #e6edf3;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -10,10 +10,10 @@ body {
 
 /* Header */
 header {
-  background-color: #111a2e;
+  background-color: #151b23;
   padding: 20px;
   text-align: center;
-  border-bottom: 2px solid #7c5cfc;
+  border-bottom: 2px solid #00c8ff;
 }
 
 header h1 {
@@ -32,17 +32,17 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #f5f7fa;
+  color: #e6edf3;
   text-decoration: none;
 }
 
 nav ul li a:hover {
-  color: #ffb454;
+  color: #ff8c1a;
 }
 
 #live-clock {
   font-size: 18px;
-  color: #ffb454;
+  color: #ff8c1a;
 }
 
 /* Sections */
@@ -53,7 +53,7 @@ section {
 }
 
 section h2 {
-  color: #ffb454;
+  color: #00c8ff;
   border-bottom: 1px solid #333;
   padding-bottom: 8px;
 }
@@ -71,7 +71,7 @@ ul {
 
 /* Countdown */
 #countdown {
-  background-color: #111a2e;
+  background-color: #151b23;
   padding: 20px;
   text-align: center;
   font-size: 20px;
@@ -80,23 +80,24 @@ ul {
 }
 
 #countdown span {
-  color: #ffb454;
+  color: #ff8c1a;
   font-weight: bold;
 }
 
 /* Button */
 button {
-  background-color: #7c5cfc;
-  color: white;
+  background-color: #00c8ff;
+  color: #0d1117;
   border: none;
   padding: 12px 24px;
   font-size: 16px;
+  font-weight: bold;
   border-radius: 4px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #6a4ce0;
+  background-color: #33d4ff;
 }
 
 #tip-output {
@@ -106,15 +107,15 @@ button:hover {
 
 /* Footer */
 footer {
-  background-color: #111a2e;
+  background-color: #151b23;
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-  border-top: 2px solid #7c5cfc;
+  border-top: 2px solid #00c8ff;
 }
 
 footer a {
-  color: #ffb454;
+  color: #ff8c1a;
 }
 
 /* Responsive */

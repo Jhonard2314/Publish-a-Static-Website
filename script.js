@@ -21,7 +21,10 @@ updateClock();
 
 
 // 2. COUNTDOWN TIMER
-const eventDate = new Date("2026-10-21T00:00:00").getTime();
+// This is a placeholder date. Change it to match a real event you're
+// counting down to, like a Prime Access release, an update, or a
+// Baro Ki'Teer visit.
+const eventDate = new Date("2026-10-15T00:00:00").getTime();
 
 function updateCountdown() {
   const now = new Date().getTime();
@@ -49,14 +52,17 @@ updateCountdown();
 
 // 3. INTERACTIVE BUTTON
 const tips = [
-  "Let your eyes adjust to the dark for 20 minutes before observing.",
-  "Use a red flashlight instead of a phone light to protect your night vision.",
-  "Jupiter's moons are visible with regular binoculars.",
-  "Meteor showers are best seen with the naked eye, not a telescope.",
-  "Cold, clear nights usually have the steadiest skies."
+  "Use your Operator to revive yourself before going down completely.",
+  "Sprint plus slide plus jump gives you the fastest movement in most tilesets.",
+  "Affinity range matters - stay close to squadmates to level gear faster.",
+  "Check the market's daily deals before spending platinum on anything.",
+  "Nightwave challenges reset weekly, so log in often to keep up your standing."
 ];
 
-document.getElementById("tip-button").addEventListener("click", function () {
-  const randomTip = tips[Math.floor(Math.random() * tips.length)];
-  document.getElementById("tip-output").textContent = randomTip;
-});
+const tipButton = document.getElementById("tip-button");
+if (tipButton) {
+  tipButton.addEventListener("click", function () {
+    const randomTip = tips[Math.floor(Math.random() * tips.length)];
+    document.getElementById("tip-output").textContent = randomTip;
+  });
+}

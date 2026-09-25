@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>After Dark - A Stargazing Blog</title>
+  <title>Tenno Log - My Warframe Blog</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1>After Dark</h1>
+    <h1>Tenno Log</h1>
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#gear">Gear</a></li>
-        <li><a href="#events">Sky Events</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#frames">Frames</a></li>
+        <li><a href="#loadout">Loadout</a></li>
+        <li><a href="#event">Next Event</a></li>
       </ul>
     </nav>
     <p id="live-clock">Loading time...</p>
@@ -25,25 +25,36 @@
 
     <section id="about">
       <h2>About This Blog</h2>
-      <img src="https://placehold.co/500x250/0b1220/f5f7fa?text=Night+Sky" alt="Illustration of a starry night sky">
-      <p>Hi! I'm a hobby astronomer who likes pointing cheap telescopes at the night sky. This site is where I share what I've learned, what I'm looking forward to, and what's in my equipment bag.</p>
-      <p>I observe from my backyard, about 40 minutes outside the city, which is just far enough to see the planets and most meteor showers clearly.</p>
+      <img src="https://warframe-web-assets.nyc3.cdn.digitaloceanspaces.com/uploads/d698227bbc6ce7dc3cb77a086085274a.jpg" alt="Warframe artwork">
+      <img src="https://www-static.warframe.com/uploads/53b7bb2e4ae64030bccf706c6bd5897f.jpg" alt="Warframe artwork">
+      <p>Hello people, in the recent weeks I've been addicted to a game called Warframe. It is a fast paced action cyber ninja fighting alien game that emphasizes a precision and agility style of gameplay, and I am having a blast.</p>
     </section>
 
-    <section id="gear">
-      <h2>My Stargazing Gear</h2>
-      <p>Here is what I use most often when observing:</p>
+    <section id="frames">
+      <h2>My Favorite Warframes</h2>
+      <p>These are the frames I keep coming back to, in no particular order:</p>
       <ul>
-        <li>150mm Dobsonian telescope</li>
-        <li>8x42 binoculars</li>
-        <li>Red flashlight (keeps night vision)</li>
-        <li>Star chart / planisphere</li>
+        <li>Volt - the first frame I ever built, still fun to play</li>
+        <li>Wukong - great for solo missions and endless survival</li>
+        <li>Zephyr - underrated for crowd control</li>
+        <li>Titania - my ALL TIME BEST IN SLOT FRAME, I've invested a lot of time in this</li>
       </ul>
     </section>
 
-    <section id="events">
-      <h2>Next Sky Event</h2>
-      <p>Counting down to the <strong>Orionids Meteor Shower</strong>, one of the more reliable meteor showers to watch.</p>
+    <section id="loadout">
+      <h2>Current Loadout</h2>
+      <p>What I'm running most missions with right now:</p>
+      <ul>
+        <li>Primary: Kuva Zarr</li>
+        <li>Secondary: Dex Pixia Prime</li>
+        <li>Melee: Xoris</li>
+        <li>Companion: Panzer Vulpaphyla</li>
+      </ul>
+    </section>
+
+    <section id="event">
+      <h2>Next Event Countdown</h2>
+      <p>Counting down to the next thing I'm looking forward to in-game. Change the date in script.js to match your own goal or event.</p>
       <div id="countdown">
         <span id="cd-days">00</span> Days
         <span id="cd-hours">00</span> Hours
@@ -52,19 +63,7 @@
       </div>
     </section>
 
-    <section id="tip">
-      <h2>Need a Stargazing Tip?</h2>
-      <button id="tip-button">Give Me a Tip</button>
-      <p id="tip-output">Click the button for a random tip.</p>
-    </section>
-
   </main>
-
-  <footer id="contact">
-    <p>Contact me: <a href="mailto:hello@afterdark.example">hello@afterdark.example</a></p>
-    <p>Learn more at the <a href="https://science.nasa.gov/skywatching/" target="_blank">NASA Skywatching Guide</a>.</p>
-    <p>&copy; 2026 After Dark</p>
-  </footer>
 
 <script src="script.js"></script>
 </body>
